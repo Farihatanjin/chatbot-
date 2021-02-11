@@ -107,8 +107,7 @@ def bag_of_words(s,words):
 
 #function to take in user input. outputs an answer from tag with the highest probability
 
-@app.route('/')
-@app.route('/userInput()')
+
 def userInput():
     print("Chat with me!")
     while True:

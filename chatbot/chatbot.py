@@ -11,13 +11,8 @@ import random
 import json
 import pickle
 
-import os
-os.chdir("/Users/farihatanjin/")
-
-from flask import Flask
-app = Flask(__name__)
-from app import routes
-
+#import os
+#os.chdir("/Users/farihatanjin/")
 
 
 with open("package.json") as file:

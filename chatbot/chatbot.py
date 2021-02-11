@@ -126,4 +126,4 @@ def userInput():
             print(random.choice(responses))
         else:
             print("I didn't get that, could you try again?")
-
+userInput()
